@@ -3,7 +3,8 @@ CREATE TABLE SED_Database.sedUI_course(
 	course_name VARCHAR(50),
 	course_description VARCHAR(5000),
 	course_size INT,
-    course_duration ENUM('HALF','FULL')
+    course_duration ENUM('HALF','FULL'),
+    course_prereq VARCHAR(5000)
 );
 INSERT INTO SED_Database.sedUI_course
 	(course_name, course_description,course_size, course_duration)
