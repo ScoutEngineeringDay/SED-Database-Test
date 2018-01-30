@@ -10,4 +10,4 @@ CREATE TABLE SED_Database.sedUI_aboutpage(
 INSERT INTO SED_Database.sedUI_aboutpage
 	(saveDate, eventLocation, registrationOpenDate, registrationOpenTime, locationMap)
 VALUES
-	("Saturday, March 12, 2016", "McLean, Virginia", "Wednesday, January 20, 2016", "7:00pm", "7515 Colshire Dr, McLean, VA 22102");
+	("Saturday, March 10, 2018", "McLean, Virginia", "Wednesday, January 24, 2018", "7:00pm", "7515 Colshire Dr, McLean, VA 22102");
