@@ -1,3 +1,4 @@
+/*For testing use only*/
 INSERT INTO SED_Database.auth_user
 	(id, password, username, is_superuser, first_name, last_name, email, is_staff, is_active, date_joined)
 VALUES

@@ -54,6 +54,11 @@ VALUES
     (17,"AM",1,1,2018, 40, "OPENED"),
     (18,"AM",1,1,2018, 40, "OPENED"),
     (5, "AM",1,1,2018, 40, "OPENED"),
-    (26, "AM",1,1,2018, 40, "OPENED"),
-    (28, "AM",1,1,2018, 40, "OPENED");
+ --   (26, "AM",1,1,2017, 40, "OPENED"), --Mining in Society
+    (28, "FULL",1,1,2018, 40, "OPENED"),
+    (29, "AM",1,1,2018,40,"OPENED"),
+    (29, "PM",1,1,2018,40,"OPENED"),
+-- Dedicate last one to your None class    
+    (30, "AM",1,1,2018,40,"OPENED"),
+    (30, "PM",1,1,2018,40,"OPENED");
     
