@@ -5,6 +5,7 @@ CREATE TABLE SED_Database.sedUI_register(
     register_first_name VARCHAR(50) NOT NULL,
     register_last_name VARCHAR(50) NOT NULL,
     register_email VARCHAR(50) NOT NULL,
+    register_phone CHAR(13) NOT NULL,
     register_type ENUM('MITRE', 'volunteer', 'regular'),
     volunteer BOOLEAN NOT NULL DEFAULT 0,
     registration_year YEAR(4) NOT NULL

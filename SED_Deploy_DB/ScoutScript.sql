@@ -21,5 +21,9 @@ CREATE TABLE SED_Database.sedUI_scout(
 INSERT INTO SED_Database.sedUI_scout
 	(scout_first_name, scout_last_name,	scout_phone, scout_email, scout_photo, scout_medical,	scout_allergy, scout_type,	unit_number, emergency_first_name, emergency_last_name, emergency_phone, emergency_email, scout_status, scout_year, confirmation_id)
 VALUES
-	("TESTER", "McTESTFACE", 9876543210, "test@gmail.com", 0, "adsf","adsf", "BOY", 1, "Bob", "Paul",9876543210, "test@gmail.com", "UNDERWAY", 2017, '11111222223333344444555556666677');
+	("TESTER", "McTEST", 9876543210, "test@gmail.com", 0, "adsf","adsf", "BOY", 1, "Bob", "Paul",9876543210, "test@gmail.com", "UNDERWAY", 2018, '11111222223333344444555556666677'),
+	("TESTER2", "Test", 9876543210, "test@gmail.com", 0, "adsf","adsf", "BOY", 1, "Bob", "Paul",9876543210, "test@gmail.com", "UNDERWAY", 2018, '11111222223333344444555556666277'),
+    ("TESTER", "McTEST", 9876543210, "test@gmail.com", 0, "adsf","adsf", "BOY", 1, "Bob", "Paul",9876543210, "test@gmail.com", "UNDERWAY", 2018, '11111222223333344444555556366677'),
+	("TESTER2", "Test", 9876543210, "test@gmail.com", 0, "adsf","adsf", "BOY", 1, "Bob", "Paul",9876543210, "test@gmail.com", "UNDERWAY", 2018, '11111222223333344444555556646277');
+
 
