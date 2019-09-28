@@ -21,5 +21,7 @@ CREATE TABLE SED_Database.sedUI_session(
 INSERT INTO SED_Database.sedUI_session
 	(scout_id, session_year, payment_method, payment_amount, payment_status, open_ceremony, workshop1_id, workshop1_status, workshop2_id, workshop2_status)
 VALUES
-	(1,2017,'Pay_Mail', 40.00,'PAID', 'A', 1,'IN PROGRESS',5, 'IN PROGRESS'),
-  (2,2017,'Pay_Mail', 40.00,'PAID', 'A', 1,'IN PROGRESS',5, 'IN PROGRESS');
+	(1,2018,'Pay_Mail', 40.00,'PAID', 'A', 1,'IN PROGRESS',5, 'IN PROGRESS'),
+  (2,2018,'Pay_Mail', 40.00,'PAID', 'A', 1,'IN PROGRESS',5, 'IN PROGRESS'),
+  (3,2018,'Pay_Mail', 40.00,'PAID', 'A', 1,'IN PROGRESS',5, 'IN PROGRESS'),
+  (4,2018,'Pay_Mail', 40.00,'PAID', 'A', 1,'IN PROGRESS',5, 'IN PROGRESS');

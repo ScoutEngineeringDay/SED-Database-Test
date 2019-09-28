@@ -8,3 +8,7 @@ CREATE TABLE SED_Database.sedUI_mailpayment(
     mailPayment_zip VARCHAR(6) NOT NULL,
     mailPayment_due_date VARCHAR(8) NOT NULL
 );
+INSERT INTO SED_Database.sedUI_mailpayment
+    (mailPayment_person, mailPayment_building, mailPayment_street, mailPayment_city, mailPayment_state, mailPayment_zip, mailPayment_due_date)
+VALUES
+	("Justin Doe", "999", "Testing Street", "Testvile", "VA", "20112", "Saturday, April 14, 2018"),
